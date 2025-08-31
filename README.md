@@ -29,7 +29,7 @@ Click on planets to learn more, speed up / slow down time, and reset the view �
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the Solar System](#) *(Add your deployed link once hosted)*
+👉 [Click here to view the Solar System](https://3d-animated-solar-system.netlify.app/) 
 
 ---
 
