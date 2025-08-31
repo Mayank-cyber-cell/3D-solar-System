@@ -1,6 +1,5 @@
 # 🌌 3D Solar System Visualization
 
-![Solar System Animation](https://media.giphy.com/media/l0HU7Q0Dy7zRZ9V3G/giphy.gif)
 
 Explore our **cosmic neighborhood** in 3D with **Three.js + TailwindCSS**.
 Click on planets to learn more, speed up / slow down time, and reset the view 🚀
