@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Solar System Visualization</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <div id="container" class="relative w-full h-screen">
+        <div id="info-panel" class="absolute top-4 left-4 z-10 bg-black bg-opacity-70 p-4 rounded-lg max-w-xs">
+            <h1 class="text-2xl font-bold mb-2 text-yellow-400">Solar System</h1>
+            <p class="text-sm mb-4">Explore our cosmic neighborhood in 3D. Click on planets for details.</p>
+            <div id="planet-info" class="planet-info">
+                <p class="text-sm">Hover over or click on a planet to see information.</p>
+            </div>
+            <div class="mt-4 flex justify-between">
+                <button id="speed-up" class="bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-sm">Speed Up</button>
+                <button id="slow-down" class="bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-sm">Slow Down</button>
+                <button id="reset-view" class="bg-blue-600 hover:bg-blue-700 px-3 py-1 rounded text-sm">Reset View</button>
+            </div>
+        </div>
+        <div id="loading" class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-80 z-20">
+            <div class="text-center">
+                <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-yellow-500 mx-auto mb-4"></div>
+                <p class="text-xl">Loading Solar System...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
